@@ -54,3 +54,16 @@ html, body {
 .eq {
     background-color: rgb(137, 240, 160);
 }
+
+#rock {
+    height: 350px;
+    position: absolute;
+    top: 130px;
+    visibility: hidden;
+    pointer-events: none;
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
